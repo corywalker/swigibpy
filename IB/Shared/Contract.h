@@ -67,7 +67,7 @@ struct Contract
 	Contract()
 		: conId(0)
 		, strike(0)
-		, includeExpired(false)
+		, includeExpired(true)
 		, comboLegs(NULL)
 		, underComp(NULL)
 	{
